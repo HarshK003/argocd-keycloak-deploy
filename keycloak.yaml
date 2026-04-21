@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: keycloak
-        image: quay.io/keycloak/keycloak:26.4.5
+        image: harshk777/keycloak-theme:v0
         args: ["start-dev"]
         env:
         - name: KEYCLOAK_ADMIN
